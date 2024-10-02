@@ -11,3 +11,13 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+}
+
+outline: 0;
+outline-offset: 0;
